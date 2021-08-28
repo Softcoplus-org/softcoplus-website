@@ -19,3 +19,10 @@ a {
 * {
   box-sizing: border-box;
 }
+
+#particles-js {
+  background: #990103;
+  height: 80vh;
+  margin: 0;
+}
+

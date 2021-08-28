@@ -12,7 +12,10 @@ const Home: NextPage = () => {
   return (
       <>
          <Navbar />
+         
          <Footer />
       </>
   )
 }
+
+export default Home;

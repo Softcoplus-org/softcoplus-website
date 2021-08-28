@@ -9,7 +9,7 @@ export default function Example() {
           <div className="px-4 max-w-xl mx-auto sm:px-6 lg:py-16 lg:max-w-none lg:mx-0 lg:px-0">
             <div>
               <div>
-                <span className="h-12 w-12 rounded-md flex items-center justify-center bg-indigo-600">
+                <span className="h-12 w-12 rounded-md flex items-center justify-center bg-red-600">
                   <InboxIcon className="h-6 w-6 text-white" aria-hidden="true" />
                 </span>
               </div>
@@ -25,7 +25,7 @@ export default function Example() {
                 <div className="mt-6">
                   <a
                     href="#"
-                    className="inline-flex px-4 py-2 border border-transparent text-base font-medium rounded-md shadow-sm text-white bg-indigo-600 hover:bg-indigo-700"
+                    className="inline-flex px-4 py-2 border border-transparent text-base font-medium rounded-md shadow-sm text-white bg-red-600 hover:bg-red-500"
                   >
                     Get started
                   </a>
@@ -71,7 +71,7 @@ export default function Example() {
           <div className="px-4 max-w-xl mx-auto sm:px-6 lg:py-32 lg:max-w-none lg:mx-0 lg:px-0 lg:col-start-2">
             <div>
               <div>
-                <span className="h-12 w-12 rounded-md flex items-center justify-center bg-indigo-600">
+                <span className="h-12 w-12 rounded-md flex items-center justify-center bg-red-600">
                   <SparklesIcon className="h-6 w-6 text-white" aria-hidden="true" />
                 </span>
               </div>
@@ -87,7 +87,7 @@ export default function Example() {
                 <div className="mt-6">
                   <a
                     href="#"
-                    className="inline-flex px-4 py-2 border border-transparent text-base font-medium rounded-md shadow-sm text-white bg-indigo-600 hover:bg-indigo-700"
+                    className="inline-flex px-4 py-2 border border-transparent text-base font-medium rounded-md shadow-sm text-white bg-red-600 hover:bg-red-500"
                   >
                     Get started
                   </a>

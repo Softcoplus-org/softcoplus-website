@@ -12,50 +12,79 @@ import {
   XIcon,
 } from '@heroicons/react/outline'
 import { ChevronDownIcon } from '@heroicons/react/solid'
+import {service} from "../public/services"
+
 
 const solutions = [
   {
-    name: 'Analytics',
+    name: 'AR/VR Development',
     description: 'Get a better understanding of where your traffic is coming from.',
     href: '#',
     icon: ChartBarIcon,
   },
   {
-    name: 'Engagement',
+    name: 'IOT Applications',
     description: 'Speak directly to your customers in a more meaningful way.',
     href: '#',
     icon: CursorClickIcon,
   },
   { name: 'Security', description: "Your customers' data will be safe and secure.", href: '#', icon: ShieldCheckIcon },
   {
-    name: 'Integrations',
+    name: 'UI pattern libraries',
     description: "Connect with third-party tools that you're already using.",
     href: '#',
     icon: ViewGridIcon,
   },
   {
-    name: 'Automations',
+    name: 'Enterprise Application Development',
     description: 'Build strategic funnels that will drive your customers to convert',
     href: '#',
     icon: RefreshIcon,
   },
   {
-    name: 'Reports',
+    name: 'Custome CRM application development',
     description: 'Get detailed reports that will help you make more informed decisions ',
     href: '#',
     icon: DocumentReportIcon,
   },
 ]
-const resources = [
+
+
+
+const services = [
   {
-    name: 'Help Center',
-    description: 'Get all of your questions answered in our forums or contact support.',
+    name: 'CMS Software',
+    description: 'Get a better understanding of where your traffic is coming from.',
     href: '#',
+    icon: ChartBarIcon,
   },
-  { name: 'Guides', description: 'Learn how to maximize our platform to get the most out of it.', href: '#' },
-  { name: 'Events', description: 'See what meet-ups and other events we might be planning near you.', href: '#' },
-  { name: 'Security', description: 'Understand how we take your privacy seriously.', href: '#' },
+  {
+    name: 'Data Science services',
+    description: 'Speak directly to your customers in a more meaningful way.',
+    href: '#',
+    icon: CursorClickIcon,
+  },
+  { name: 'Mobile App Development', description: "Your customers' data will be safe and secure.", href: '#', icon: ShieldCheckIcon },
+  {
+    name: 'Data Analysis',
+    description: "Connect with third-party tools that you're already using.",
+    href: '#',
+    icon: ViewGridIcon,
+  },
+  {
+    name: 'AI/ML Services',
+    description: 'Build strategic funnels that will drive your customers to convert',
+    href: '#',
+    icon: RefreshIcon,
+  },
+  {
+    name: 'DevOps services',
+    description: 'Get detailed reports that will help you make more informed decisions ',
+    href: '#',
+    icon: DocumentReportIcon,
+  },
 ]
+
 
 function classNames(...classes :
      any) {
@@ -63,8 +92,12 @@ function classNames(...classes :
 }
 
 export default function Example() {
+
+
+
+
   return (
-    <Popover className="relative bg-white">
+    <Popover className="relative bg-white  z-50">
       <div className="flex justify-between items-center px-4 py-6 sm:px-6 md:justify-start md:space-x-10">
         <div>
           <a href="/" className="flex">
@@ -77,7 +110,7 @@ export default function Example() {
           </a>
         </div>
         <div className="-mr-2 -my-2 md:hidden">
-          <Popover.Button className="bg-white rounded-md p-2 inline-flex items-center justify-center text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500">
+          <Popover.Button className="bg-white rounded-md p-2 inline-flex items-center justify-center text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-red-700">
             <span className="sr-only">Open menu</span>
             <MenuIcon className="h-6 w-6" aria-hidden="true" />
           </Popover.Button>
@@ -97,7 +130,7 @@ export default function Example() {
                   <Popover.Button
                     className={classNames(
                       open ? 'text-gray-900' : 'text-gray-500',
-                      'group bg-white rounded-md inline-flex items-center text-base font-medium hover:text-gray-900 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500'
+                      'group bg-white rounded-md inline-flex items-center text-base font-medium hover:text-gray-900 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-red-700'
                     )}
                   >
                     <span>Solutions</span>
@@ -128,7 +161,7 @@ export default function Example() {
                               href={item.href}
                               className="-m-3 p-3 flex items-start rounded-lg hover:bg-gray-50"
                             >
-                              <div className="flex-shrink-0 flex items-center justify-center h-10 w-10 rounded-md bg-indigo-500 text-white sm:h-12 sm:w-12">
+                              <div className="flex-shrink-0 flex items-center justify-center h-10 w-10 rounded-md bg-red-600 text-white sm:h-12 sm:w-12">
                                 <item.icon className="h-6 w-6" aria-hidden="true" />
                               </div>
                               <div className="ml-4">
@@ -138,34 +171,14 @@ export default function Example() {
                             </a>
                           ))}
                         </div>
-                        <div className="p-5 bg-gray-50 sm:p-8">
-                          <a href="#" className="-m-3 p-3 flow-root rounded-md hover:bg-gray-100">
-                            <div className="flex items-center">
-                              <div className="text-base font-medium text-gray-900">Enterprise</div>
-                              <span className="ml-3 inline-flex items-center px-3 py-0.5 rounded-full text-xs font-medium leading-5 bg-indigo-100 text-indigo-800">
-                                New
-                              </span>
-                            </div>
-                            <p className="mt-1 text-sm text-gray-500">
-                              Empower your entire team with even more advanced tools.
-                            </p>
-                          </a>
-                        </div>
+                        
                       </div>
                     </Popover.Panel>
                   </Transition>
                 </>
               )}
             </Popover>
-            <a href="/about" className="text-base font-medium text-gray-500 hover:text-gray-900">
-              AboutUs
-            </a>
-            <a href="/contact" className="text-base font-medium text-gray-500 hover:text-gray-900">
-              ContactUs
-            </a>
-            <a href="https://softcoplus.webhr.co/hr/login/" target="_blank" className="text-base font-medium text-gray-500 hover:text-gray-900">
-              Employee Login
-            </a>
+
 
             <Popover className="relative">
               {({ open } : any) => (
@@ -173,10 +186,10 @@ export default function Example() {
                   <Popover.Button
                     className={classNames(
                       open ? 'text-gray-900' : 'text-gray-500',
-                      'group bg-white rounded-md inline-flex items-center text-base font-medium hover:text-gray-900 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500'
+                      'group bg-white rounded-md inline-flex items-center text-base font-medium hover:text-gray-900 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-red-700'
                     )}
                   >
-                    <span>More</span>
+                    <span>Services</span>
                     <ChevronDownIcon
                       className={classNames(
                         open ? 'text-gray-600' : 'text-gray-400',
@@ -195,22 +208,44 @@ export default function Example() {
                     leaveFrom="opacity-100 translate-y-0"
                     leaveTo="opacity-0 translate-y-1"
                   >
-                    <Popover.Panel className="absolute z-10 left-1/2 transform -translate-x-1/2 mt-3 px-2 w-screen max-w-xs sm:px-0">
+                    <Popover.Panel className="absolute z-10 -ml-4 mt-3 transform w-screen max-w-md lg:max-w-3xl">
                       <div className="rounded-lg shadow-lg ring-1 ring-black ring-opacity-5 overflow-hidden">
-                        <div className="relative grid gap-6 bg-white px-5 py-6 sm:gap-8 sm:p-8">
-                          {resources.map((item) => (
-                            <a key={item.name} href={item.href} className="-m-3 p-3 block rounded-md hover:bg-gray-50">
-                              <p className="text-base font-medium text-gray-900">{item.name}</p>
-                              <p className="mt-1 text-sm text-gray-500">{item.description}</p>
+                        <div className="relative grid gap-6 bg-white px-5 py-6 sm:gap-8 sm:p-8 lg:grid-cols-2">
+                          {service.map((item) => (
+                            <a
+                              key={item.name}
+                              href={item.href}
+                              className="-m-3 p-3 flex items-start rounded-lg hover:bg-gray-50"
+                            >
+                              <div className="flex-shrink-0 flex items-center justify-center h-10 w-10 rounded-md bg-red-700 text-white sm:h-12 sm:w-12">
+                                <ViewGridIcon className="h-6 w-6" aria-hidden="true" />
+                              </div>
+                              <div className="ml-4">
+                                <p className="text-base font-medium text-gray-900">{item.name}</p>
+                                <p className="mt-1 text-sm text-gray-500">{item.description}</p>
+                              </div>
                             </a>
                           ))}
                         </div>
+                        
                       </div>
                     </Popover.Panel>
                   </Transition>
                 </>
               )}
             </Popover>
+            
+            <a href="/about" className="text-base font-medium text-gray-500 hover:text-gray-900">
+              AboutUs
+            </a>
+            <a href="/contact" className="text-base font-medium text-gray-500 hover:text-gray-900">
+              ContactUs
+            </a>
+            <a href="https://softcoplus.webhr.co/hr/login/" target="_blank" className="text-base font-medium text-gray-500 hover:text-gray-900">
+              Employee Login
+            </a>
+
+          
           </Popover.Group>
           <div className="flex items-center md:ml-12">
           
@@ -234,14 +269,16 @@ export default function Example() {
             <div className="pt-5 pb-6 px-5">
               <div className="flex items-center justify-between">
                 <div>
+                  <a href="/">
                   <img
                     className="h-10 w-auto"
                     src="./logo.jpeg"
                     alt="Workflow"
                   />
+                  </a>
                 </div>
                 <div className="-mr-2">
-                  <Popover.Button className="bg-white rounded-md p-2 inline-flex items-center justify-center text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500">
+                  <Popover.Button className="bg-white rounded-md p-2 inline-flex items-center justify-center text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-red-700">
                     <span className="sr-only">Close menu</span>
                     <XIcon className="h-6 w-6" aria-hidden="true" />
                   </Popover.Button>
@@ -249,13 +286,29 @@ export default function Example() {
               </div>
               <div className="mt-6">
                 <nav className="grid gap-6">
+                  Solutions
                   {solutions.map((item) => (
                     <a
                       key={item.name}
                       href={item.href}
                       className="-m-3 p-3 flex items-center rounded-lg hover:bg-gray-50"
                     >
-                      <div className="flex-shrink-0 flex items-center justify-center h-10 w-10 rounded-md bg-indigo-500 text-white">
+                      <div className="flex-shrink-0 flex items-center justify-center h-10 w-10 rounded-md bg-red-600 text-white">
+                        <item.icon className="h-6 w-6" aria-hidden="true" />
+                      </div>
+                      <div className="ml-4 text-base font-medium text-gray-900">{item.name}</div>
+                    </a>
+                  ))}
+
+                  Services
+
+{ services.map((item) => (
+                    <a
+                      key={item.name}
+                      href={item.href}
+                      className="-m-3 p-3 flex items-center rounded-lg hover:bg-gray-50"
+                    >
+                      <div className="flex-shrink-0 flex items-center justify-center h-10 w-10 rounded-md bg-red-600 text-white">
                         <item.icon className="h-6 w-6" aria-hidden="true" />
                       </div>
                       <div className="ml-4 text-base font-medium text-gray-900">{item.name}</div>
@@ -281,15 +334,7 @@ export default function Example() {
                 <a href="#" className="text-base font-medium text-gray-900 hover:text-gray-700">
                   Expertise
                 </a>
-                {resources.map((item) => (
-                  <a
-                    key={item.name}
-                    href={item.href}
-                    className="text-base font-medium text-gray-900 hover:text-gray-700"
-                  >
-                    {item.name}
-                  </a>
-                ))}
+                
               </div>
            
             </div>
@@ -299,3 +344,5 @@ export default function Example() {
     </Popover>
   )
 }
+
+
