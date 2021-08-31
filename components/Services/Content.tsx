@@ -4,9 +4,10 @@ import Image from 'next/image'
 import profilePic from  "../../public/computer.png"
 
 
-export default function Header({item} : any)  {
+export default function Content({item} : any)  {
 
-  console.log(item)
+   {console.log(item)}
+
   return (
    
     
@@ -27,8 +28,8 @@ export default function Header({item} : any)  {
                   </p>
                 </div>
                 <h2 className="max-w-lg mb-6 font-sans text-2xl font-semibold tracking-tight text-gray-900 sm:text-4xl sm:leading-none">
-                    {item.name.toUpperCase()}
-                  
+                    {/* {item.name && item.name.toUpperCase()} */}
+                    CMS Software
                 </h2>
                 <p className="text-base text-gray-700 md:text-lg">
                   Sed ut perspiciatis unde omnis iste natus error sit voluptatem
