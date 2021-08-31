@@ -7,7 +7,7 @@ import Navbar  from "../../components/Navbar"
 import Header from "../../components/Services/Header"
 import Content from "../../components/Services/Content"
 import Footer from "../../components/Footer"
-import {service} from "../../public/services"
+import {solution} from "../../public/solutions"
 
 const Home: NextPage = () => {
 
@@ -23,11 +23,11 @@ const Home: NextPage = () => {
 
 export const getStaticProps = async({params} : any) =>{
   
-  const serviceData =  service.filter(s => s.id.toString() === params.id )
+  const solutionData =  solution.filter(s => s.id.toString() === params.id )
 
   return{
     props : {
-      serv : serviceData[0]
+      serv : solutionData[0]
     }
   }
 
@@ -35,7 +35,7 @@ export const getStaticProps = async({params} : any) =>{
 
 
 export const getStaticPaths = async () =>{
-  const paths = service.map(s =>({
+  const paths = solution.map(s =>({
      params : {
        id : s.id.toString()
      }

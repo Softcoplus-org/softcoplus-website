@@ -13,6 +13,10 @@ import {
 } from '@heroicons/react/outline'
 import { ChevronDownIcon } from '@heroicons/react/solid'
 import {service} from "../public/services"
+import {solution} from "../public/solutions"
+
+import Image from 'next/image'
+import logo from  "../public/logo.jpeg"
 
 
 const solutions = [
@@ -102,9 +106,11 @@ export default function Example() {
         <div>
           <a href="/" className="flex">
             <span className="sr-only">Workflow</span>
-            <img
+            <Image
               className="h-10 w-auto sm:h-11"
-              src="./logo.jpeg"
+              height={50}
+              width={150}
+              src={logo}
               alt=""
             />
           </a>
@@ -155,14 +161,14 @@ export default function Example() {
                     <Popover.Panel className="absolute z-10 -ml-4 mt-3 transform w-screen max-w-md lg:max-w-3xl">
                       <div className="rounded-lg shadow-lg ring-1 ring-black ring-opacity-5 overflow-hidden">
                         <div className="relative grid gap-6 bg-white px-5 py-6 sm:gap-8 sm:p-8 lg:grid-cols-2">
-                          {solutions.map((item) => (
+                          {solution.map((item) => (
                             <a
                               key={item.name}
-                              href={item.href}
+                              href={`/solutions/${item.id}`}
                               className="-m-3 p-3 flex items-start rounded-lg hover:bg-gray-50"
                             >
                               <div className="flex-shrink-0 flex items-center justify-center h-10 w-10 rounded-md bg-red-600 text-white sm:h-12 sm:w-12">
-                                <item.icon className="h-6 w-6" aria-hidden="true" />
+                              <ViewGridIcon className="h-6 w-6" aria-hidden="true" />
                               </div>
                               <div className="ml-4">
                                 <p className="text-base font-medium text-gray-900">{item.name}</p>
@@ -214,7 +220,7 @@ export default function Example() {
                           {service.map((item) => (
                             <a
                               key={item.name}
-                              href={item.href}
+                              href={`/services/${item.id}`}
                               className="-m-3 p-3 flex items-start rounded-lg hover:bg-gray-50"
                             >
                               <div className="flex-shrink-0 flex items-center justify-center h-10 w-10 rounded-md bg-red-700 text-white sm:h-12 sm:w-12">
@@ -302,14 +308,14 @@ export default function Example() {
 
                   Services
 
-{ services.map((item) => (
+{ service.map((item) => (
                     <a
                       key={item.name}
                       href={item.href}
                       className="-m-3 p-3 flex items-center rounded-lg hover:bg-gray-50"
                     >
                       <div className="flex-shrink-0 flex items-center justify-center h-10 w-10 rounded-md bg-red-600 text-white">
-                        <item.icon className="h-6 w-6" aria-hidden="true" />
+                        <ViewGridIcon className="h-6 w-6" aria-hidden="true" />
                       </div>
                       <div className="ml-4 text-base font-medium text-gray-900">{item.name}</div>
                     </a>
