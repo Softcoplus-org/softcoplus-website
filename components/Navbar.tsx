@@ -223,7 +223,7 @@ export default function Example() {
                               href={`/services/${item.id}`}
                               className="-m-3 p-3 flex items-start rounded-lg hover:bg-gray-50"
                             >
-                              <div className="flex-shrink-0 flex items-center justify-center h-10 w-10 rounded-md bg-red-700 text-white sm:h-12 sm:w-12">
+                              <div className="flex-shrink-0 flex items-center justify-center h-10 w-10 rounded-md bg-red-600 text-white sm:h-12 sm:w-12">
                                 <ViewGridIcon className="h-6 w-6" aria-hidden="true" />
                               </div>
                               <div className="ml-4">
@@ -293,14 +293,14 @@ export default function Example() {
               <div className="mt-6">
                 <nav className="grid gap-6">
                   Solutions
-                  {solutions.map((item) => (
+                  {solution.map((item) => (
                     <a
                       key={item.name}
-                      href={item.href}
+                      href={`/solutions/${item.id}`}
                       className="-m-3 p-3 flex items-center rounded-lg hover:bg-gray-50"
                     >
                       <div className="flex-shrink-0 flex items-center justify-center h-10 w-10 rounded-md bg-red-600 text-white">
-                        <item.icon className="h-6 w-6" aria-hidden="true" />
+                        <ViewGridIcon className="h-6 w-6" aria-hidden="true" />
                       </div>
                       <div className="ml-4 text-base font-medium text-gray-900">{item.name}</div>
                     </a>
@@ -308,10 +308,10 @@ export default function Example() {
 
                   Services
 
-{ service.map((item) => (
+     { service.map((item) => (
                     <a
                       key={item.name}
-                      href={item.href}
+                      href={`/services/${item.id}`}
                       className="-m-3 p-3 flex items-center rounded-lg hover:bg-gray-50"
                     >
                       <div className="flex-shrink-0 flex items-center justify-center h-10 w-10 rounded-md bg-red-600 text-white">
