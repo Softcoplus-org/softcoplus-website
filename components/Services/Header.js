@@ -124,7 +124,7 @@ export default function Header() {
               >
            </Particles>
                  
-            <div  className="absolute top-20 w-full px-4 pt-16 mt-28 mx-auto lg:py-32 md:px-8 xl:px-20 sm:max-w-xl md:max-w-full">
+            <div  className="absolute top-20 w-full px-4 pt-16 sm:mt-8 md:mt-16 md:mb-16 mt-2 mx-auto lg:py-32 md:px-8 xl:px-20 sm:max-w-xl md:max-w-full">
                 <div className="flex justify-center h-full  sm:mr-20 overflow-hidden lg:w-2/3 xl:w-1/2 lg:absolute lg:justify-start lg:bottom-0 lg:right-0 lg:items-end">
                   <img
                     src="https://kitwind.io/assets/kometa/full-browser.png"

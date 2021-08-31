@@ -9,13 +9,13 @@ import Content from "../../components/Services/Content"
 import Footer from "../../components/Footer"
 import {solution} from "../../public/solutions"
 
-const Home: NextPage = () => {
+const Home: NextPage = ({serv} :  any) => {
 
   return (
       <>
          <Navbar />
          <Header />
-         <Content  />
+         <Content item={serv} />
          <Footer />
       </>
   )

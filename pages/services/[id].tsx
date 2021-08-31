@@ -9,13 +9,15 @@ import Content from "../../components/Services/Content"
 import Footer from "../../components/Footer"
 import {service} from "../../public/services"
 
-const Home: NextPage = () => {
+const Home: NextPage = ({serv} : any) => {
+
+  console.log(serv)
 
   return (
       <>
          <Navbar />
          <Header />
-         <Content  />
+         <Content  item={serv} />
          <Footer />
       </>
   )
