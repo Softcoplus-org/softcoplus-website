@@ -296,36 +296,7 @@ export default function Example() {
                 </div>
               </div>
               <div className="mt-6">
-                <nav className="grid gap-6">
-                  Solutions
-                  {solution.map((item) => (
-                    <a
-                      key={item.name}
-                      href={`/solutions/${item.id}`}
-                      className="-m-3 p-3 flex items-center rounded-lg hover:bg-gray-50"
-                    >
-                      <div className="flex-shrink-0 flex items-center justify-center h-10 w-10 rounded-md bg-red-600 text-white">
-                        <ViewGridIcon className="h-6 w-6" aria-hidden="true" />
-                      </div>
-                      <div className="ml-4 text-base font-medium text-gray-900">{item.name}</div>
-                    </a>
-                  ))}
-
-                  Services
-
-     { service.map((item) => (
-                    <a
-                      key={item.name}
-                      href={`/services/${item.id}`}
-                      className="-m-3 p-3 flex items-center rounded-lg hover:bg-gray-50"
-                    >
-                      <div className="flex-shrink-0 flex items-center justify-center h-10 w-10 rounded-md bg-red-600 text-white">
-                        <ViewGridIcon className="h-6 w-6" aria-hidden="true" />
-                      </div>
-                      <div className="ml-4 text-base font-medium text-gray-900">{item.name}</div>
-                    </a>
-                  ))}
-                </nav>
+                
               </div>
             </div>
             <div className="py-6 px-5">
@@ -336,6 +307,14 @@ export default function Example() {
 
                 <a href="/contact" className="text-base font-medium text-gray-900 hover:text-gray-700">
                   Contactus
+                </a>
+
+                <a href="/services" className="text-base font-medium text-gray-900 hover:text-gray-700">
+                  Services
+                </a>
+
+                <a href="/solutions" className="text-base font-medium text-gray-900 hover:text-gray-700">
+                  Solutions
                 </a>
 
                 <a href="https://softcoplus.webhr.co/hr/login/" target="_blank" className="text-base font-medium text-gray-500 hover:text-gray-900">
