@@ -19,37 +19,23 @@ export default function Header(){
                   <div className="absolute inset-0 bg-red-500 mix-blend-multiply" />
                 </div>
                 <div className="relative px-4 py-16 sm:px-6 sm:py-24 lg:py-32 lg:px-8">
-                  <h1 className="text-center text-4xl font-extrabold tracking-tight sm:text-5xl lg:text-6xl">
-                    <span className="block text-white">Take control of your</span>
-                    <span className="block text-red-200">customer support</span>
+                  <h1 className="text-center max-w-5xl mx-auto text-xl font-bold tracking-tight sm:text-4xl lg:text-5xl">
+                    <span className="block text-white ">
+                    we provide salesforce consulting services
+                      </span>
+                    
                   </h1>
                   <p className="mt-6 max-w-lg mx-auto text-center text-xl text-red-200 sm:max-w-3xl">
-                    Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem cupidatat commodo. Elit sunt
-                    amet fugiat veniam occaecat fugiat aliqua.
+                  Converting your thoughts into reality with the combination of ideation, brooding and trustworthiness is our dominance
                   </p>
-                  <div className="mt-10 max-w-sm mx-auto sm:max-w-none sm:flex sm:justify-center">
-                    <div className="space-y-4 sm:space-y-0 sm:mx-auto sm:inline-grid sm:grid-cols-2 sm:gap-5">
-                      <a
-                        href="#"
-                        className="flex items-center justify-center px-4 py-3 border border-transparent text-base font-medium rounded-md shadow-sm text-red-500 bg-white hover:bg-red-50 sm:px-8"
-                      >
-                        Get started
-                      </a>
-                      <a
-                        href="#"
-                        className="flex items-center justify-center px-4 py-3 border border-transparent text-base font-medium rounded-md shadow-sm text-white bg-red-500 bg-opacity-60 hover:bg-opacity-70 sm:px-8"
-                      >
-                        Live demo
-                      </a>
-                    </div>
-                  </div>
+                  
                 </div>
               </div>
             </div>
           </div>
 
           {/* Logo cloud */}
-          <div className="bg-gray-100">
+          {/* <div className="bg-gray-100">
             <div className="max-w-7xl mx-auto py-16 px-4 sm:px-6 lg:px-8">
               <p className="text-center text-sm font-semibold uppercase text-gray-500 tracking-wide">
                 Trusted by over 5 very average small businesses
@@ -84,7 +70,7 @@ export default function Header(){
                 </div>
               </div>
             </div>
-          </div>
+          </div> */}
         </div>
 
         {/* More main page content here... */}

@@ -1,43 +1,66 @@
 /* This example requires Tailwind CSS v2.0+ */
-import { CheckIcon } from '@heroicons/react/outline'
+import { AnnotationIcon, GlobeAltIcon, LightningBoltIcon, ScaleIcon } from '@heroicons/react/outline'
 
 const features = [
   {
-    name: 'Invite team members',
-    description: 'You can manage phone, email and chat conversations all from a single mailbox.',
+    name: 'Trace your Competition Performance',
+    description:
+      `Softcoplus helps the industry to get an overview of the competitors in the corresponding industry. The company helps to solve efficient management
+    
+      .  The business leads can decrease the pressure of handling various tasks`,
+    icon: GlobeAltIcon,
   },
-  { name: 'List view', description: 'You can manage phone, email and chat conversations all from a single mailbox.' },
   {
-    name: 'Keyboard shortcuts',
-    description: 'You can manage phone, email and chat conversations all from a single mailbox.',
+    name: 'Ease of Managing Orders',
+    description:
+      `It builds an end-to-end customer relationship management.
+      It can be practised to monitor the customer activity, including any product queries and successful orders.
+      It can allow the Salespeople to multiple locations and deal with them from various geographical areas. 
+      `,
+    icon: ScaleIcon,
   },
-  { name: 'Calendars', description: 'You can manage phone, email and chat conversations all from a single mailbox.' },
-  { name: 'Notifications', description: 'Find what you need with advanced filters, bulk actions, and quick views.' },
-  { name: 'Boards', description: 'Find what you need with advanced filters, bulk actions, and quick views.' },
-  { name: 'Reporting', description: 'Find what you need with advanced filters, bulk actions, and quick views.' },
-  { name: 'Mobile app', description: 'Find what you need with advanced filters, bulk actions, and quick views.' },
+  {
+    name: 'Analyze Growth and Decline of Business',
+    description:
+      `It plays a crucial role in tracking business performance and explains how the business scenario stands in the market competition.
+      Recovering the data from your Salesforce service companies can help you get information regarding the company with no trouble.
+      .`,
+    icon: LightningBoltIcon,
+  },
+  {
+    name: 'Manage Customers',
+    description:
+      `Salesforce consulting services helps in evolving aspects of the customer's expectations and necessities.
+      Regularly keep the promised customers and encourage them to leave feedbacks associated with products and services.
+      The reviews can help to grow the organization to give greater customer comfort.
+      `,
+    icon: AnnotationIcon,
+  },
 ]
 
 export default function Example() {
   return (
-    <div className="bg-white">
-      <div className="max-w-7xl mx-auto py-16 px-4 sm:px-6 lg:py-24 lg:px-8 lg:grid lg:grid-cols-3 lg:gap-x-8">
-        <div>
-          <h2 className="text-base font-semibold text-red-600 uppercase tracking-wide">Everything you need</h2>
-          <p className="mt-2 text-3xl font-extrabold text-gray-900">All-in-one platform</p>
-          <p className="mt-4 text-lg text-gray-500">
-            Ac euismod vel sit maecenas id pellentesque eu sed consectetur. Malesuada adipiscing sagittis vel nulla nec.
+    <div className="py-20 bg-white">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="lg:text-center">
+          <h2 className="text-base text-red-700 font-semibold tracking-wide uppercase">FEATURES</h2>
+         
+          <p className="mt-4 max-w-2xl text-xl text-gray-500 lg:mx-auto">
+             The aim is to help customers by giving an enhanced experience. 
           </p>
         </div>
-        <div className="mt-12 lg:mt-0 lg:col-span-2">
-          <dl className="space-y-10 sm:space-y-0 sm:grid sm:grid-cols-2 sm:grid-rows-4 sm:grid-flow-col sm:gap-x-6 sm:gap-y-10 lg:gap-x-8">
+
+        <div className="mt-10">
+          <dl className="space-y-10 md:space-y-0 md:grid md:grid-cols-2 md:gap-x-8 md:gap-y-10">
             {features.map((feature) => (
               <div key={feature.name} className="relative">
                 <dt>
-                  <CheckIcon className="absolute h-6 w-6 text-green-500" aria-hidden="true" />
-                  <p className="ml-9 text-lg leading-6 font-medium text-gray-900">{feature.name}</p>
+                  <div className="absolute flex items-center justify-center h-12 w-12 rounded-md bg-red-600 text-white">
+                    <feature.icon className="h-6 w-6" aria-hidden="true" />
+                  </div>
+                  <p className="ml-16 text-lg leading-6 font-medium text-gray-900">{feature.name}</p>
                 </dt>
-                <dd className="mt-2 ml-9 text-base text-gray-500">{feature.description}</dd>
+                <dd className="mt-2 ml-16 text-base text-gray-500">{feature.description}</dd>
               </div>
             ))}
           </dl>

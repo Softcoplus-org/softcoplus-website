@@ -1,111 +1,147 @@
-/* This example requires Tailwind CSS v2.0+ */
-import { InboxIcon, SparklesIcon } from '@heroicons/react/outline'
 
-export default function Example() {
+export const Content = () => {
   return (
-    <div className="relative bg-white pt-16 pb-32 overflow-hidden bg-gray-100">
-      <div className="relative">
-        <div className="lg:mx-auto lg:max-w-7xl lg:px-8 lg:grid lg:grid-cols-2 lg:grid-flow-col-dense lg:gap-24">
-          <div className="px-4 max-w-xl mx-auto sm:px-6 lg:py-16 lg:max-w-none lg:mx-0 lg:px-0">
-            <div>
-              <div>
-                <span className="h-12 w-12 rounded-md flex items-center justify-center bg-red-600">
-                  <InboxIcon className="h-6 w-6 text-white" aria-hidden="true" />
-                </span>
-              </div>
-              <div className="mt-6">
-                <h2 className="text-3xl font-extrabold tracking-tight text-gray-900">
-                  Stay on top of customer support
-                </h2>
-                <p className="mt-4 text-lg text-gray-500">
-                  Semper curabitur ullamcorper posuere nunc sed. Ornare iaculis bibendum malesuada faucibus lacinia
-                  porttitor. Pulvinar laoreet sagittis viverra duis. In venenatis sem arcu pretium pharetra at. Lectus
-                  viverra dui tellus ornare pharetra.
-                </p>
-                <div className="mt-6">
-                  <a
-                    href="#"
-                    className="inline-flex px-4 py-2 border border-transparent text-base font-medium rounded-md shadow-sm text-white bg-red-600 hover:bg-red-500"
-                  >
-                    Get started
-                  </a>
-                </div>
-              </div>
-            </div>
-            <div className="mt-8 border-t border-gray-200 pt-6">
-              <blockquote>
-                <div>
-                  <p className="text-base text-gray-500">
-                    &ldquo;Cras velit quis eros eget rhoncus lacus ultrices sed diam. Sit orci risus aenean curabitur
-                    donec aliquet. Mi venenatis in euismod ut.&rdquo;
-                  </p>
-                </div>
-                <footer className="mt-3">
-                  <div className="flex items-center space-x-3">
-                    <div className="flex-shrink-0">
-                      <img
-                        className="h-6 w-6 rounded-full"
-                        src="https://images.unsplash.com/photo-1509783236416-c9ad59bae472?ixlib=rb-=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80"
-                        alt=""
-                      />
-                    </div>
-                    <div className="text-base font-medium text-gray-700">Marcia Hill, Digital Marketing Manager</div>
-                  </div>
-                </footer>
-              </blockquote>
-            </div>
-          </div>
-          <div className="mt-12 sm:mt-16 lg:mt-0">
-            <div className="pl-4 -mr-48 sm:pl-6 md:-mr-16 lg:px-0 lg:m-0 lg:relative lg:h-full">
-              <img
-                className="w-full rounded-xl shadow-xl ring-1 ring-black ring-opacity-5 lg:absolute lg:left-0 lg:h-full lg:w-auto lg:max-w-none"
-                src="https://tailwindui.com/img/component-images/inbox-app-screenshot-1.jpg"
-                alt="Inbox user interface"
-              />
-            </div>
-          </div>
+    <div className="bg-gray-100">
+      <div className="relative px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
+        <div className="absolute inset-x-0 top-0 items-center justify-center hidden overflow-hidden md:flex md:inset-y-0">
+          <svg
+            viewBox="0 0 88 88"
+            className="w-full max-w-screen-xl text-red-100"
+          >
+            <circle fill="currentColor" cx="44" cy="44" r="15.5" />
+            <circle
+              fillOpacity="0.2"
+              fill="currentColor"
+              cx="44"
+              cy="44"
+              r="44"
+            />
+            <circle
+              fillOpacity="0.2"
+              fill="currentColor"
+              cx="44"
+              cy="44"
+              r="37.5"
+            />
+            <circle
+              fillOpacity="0.3"
+              fill="currentColor"
+              cx="44"
+              cy="44"
+              r="29.5"
+            />
+            <circle
+              fillOpacity="0.3"
+              fill="currentColor"
+              cx="44"
+              cy="44"
+              r="22.5"
+            />
+          </svg>
         </div>
-      </div>
-      <div className="mt-24">
-        <div className="lg:mx-auto lg:max-w-7xl lg:px-8 lg:grid lg:grid-cols-2 lg:grid-flow-col-dense lg:gap-24">
-          <div className="px-4 max-w-xl mx-auto sm:px-6 lg:py-32 lg:max-w-none lg:mx-0 lg:px-0 lg:col-start-2">
-            <div>
-              <div>
-                <span className="h-12 w-12 rounded-md flex items-center justify-center bg-red-600">
-                  <SparklesIcon className="h-6 w-6 text-white" aria-hidden="true" />
-                </span>
+        <div className="relative grid gap-5 sm:grid-cols-2 lg:grid-cols-4">
+          <div className="flex flex-col justify-between overflow-hidden text-left transition-shadow duration-200 bg-white rounded shadow-xl group hover:shadow-2xl">
+            <div className="p-5">
+              <div className="flex items-center justify-center w-10 h-10 mb-4 rounded-full bg-red-700">
+                <svg
+                  className="w-8 h-8 text-deep-purple-accent-400"
+                  stroke="white"
+                  viewBox="0 0 52 52"
+                >
+                  <polygon
+                    strokeWidth="3"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    fill="none"
+                    points="29 13 14 29 25 29 23 39 38 23 27 23"
+                  />
+                </svg>
               </div>
-              <div className="mt-6">
-                <h2 className="text-3xl font-extrabold tracking-tight text-gray-900">
-                  Better understand your customers
-                </h2>
-                <p className="mt-4 text-lg text-gray-500">
-                  Semper curabitur ullamcorper posuere nunc sed. Ornare iaculis bibendum malesuada faucibus lacinia
-                  porttitor. Pulvinar laoreet sagittis viverra duis. In venenatis sem arcu pretium pharetra at. Lectus
-                  viverra dui tellus ornare pharetra.
-                </p>
-                <div className="mt-6">
-                  <a
-                    href="#"
-                    className="inline-flex px-4 py-2 border border-transparent text-base font-medium rounded-md shadow-sm text-white bg-red-600 hover:bg-red-500"
-                  >
-                    Get started
-                  </a>
-                </div>
+              <p className="mb-2 font-bold">Vision </p>
+              <p className="text-sm leading-5 text-gray-900">
+                Our achievements have made us sufficient with a dream for the future to assist enterprises to gain big results.
+              </p>
+            </div>
+            <div className="w-full h-1 ml-auto duration-300 origin-left transform scale-x-0 bg-deep-purple-accent-400 group-hover:scale-x-100" />
+          </div>
+          <div className="flex flex-col justify-between overflow-hidden text-left transition-shadow duration-200 bg-white rounded shadow-xl group hover:shadow-2xl">
+            <div className="p-5">
+              <div className="flex items-center justify-center w-10 h-10 mb-4 rounded-full bg-red-700">
+                <svg
+                  className="w-8 h-8 text-deep-purple-accent-400"
+                  stroke="white"
+                  viewBox="0 0 52 52"
+                >
+                  <polygon
+                    strokeWidth="3"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    fill="none"
+                    points="29 13 14 29 25 29 23 39 38 23 27 23"
+                  />
+                </svg>
               </div>
+              <p className="mb-2 font-bold"> Job </p>
+              <p className="text-sm leading-5 text-gray-900">
+                 We use our unique expertise with the latest technologies and work as an independent web development team.
+              </p>
             </div>
+            <div className="w-full h-1 ml-auto duration-300 origin-left transform scale-x-0 bg-deep-purple-accent-400 group-hover:scale-x-100" />
           </div>
-          <div className="mt-12 sm:mt-16 lg:mt-0 lg:col-start-1">
-            <div className="pr-4 -ml-48 sm:pr-6 md:-ml-16 lg:px-0 lg:m-0 lg:relative lg:h-full">
-              <img
-                className="w-full rounded-xl shadow-xl ring-1 ring-black ring-opacity-5 lg:absolute lg:right-0 lg:h-full lg:w-auto lg:max-w-none"
-                src="https://tailwindui.com/img/component-images/inbox-app-screenshot-2.jpg"
-                alt="Customer profile user interface"
-              />
+          <div className="flex flex-col justify-between overflow-hidden text-left transition-shadow duration-200 bg-white rounded shadow-xl group hover:shadow-2xl">
+            <div className="p-5">
+              <div className="flex items-center justify-center w-10 h-10 mb-4 rounded-full bg-red-700">
+                <svg
+                  className="w-8 h-8 text-deep-purple-accent-400"
+                  stroke="white"
+                  viewBox="0 0 52 52"
+                >
+                  <polygon
+                    strokeWidth="3"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    fill="none"
+                    points="29 13 14 29 25 29 23 39 38 23 27 23"
+                  />
+                </svg>
+              </div>
+              <p className="mb-2 font-bold">Mission</p>
+              <p className="text-sm leading-5 text-gray-900">
+                Our central goal is to deliver world-class solutions using advanced technologies and skills to sustain creativity and collaborations.
+              </p>
             </div>
+            <div className="w-full h-1 ml-auto duration-300 origin-left transform scale-x-0 bg-deep-purple-accent-400 group-hover:scale-x-100" />
           </div>
+          <div className="flex flex-col justify-between overflow-hidden text-left transition-shadow duration-200 bg-white rounded shadow-xl group hover:shadow-2xl">
+            <div className="p-5">
+              <div className="flex items-center justify-center w-10 h-10 mb-4 rounded-full bg-red-700">
+                <svg
+                  className="w-8 h-8 text-deep-purple-accent-400"
+                  stroke="white"
+                  viewBox="0 0 52 52"
+                >
+                  <polygon
+                    strokeWidth="3"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    fill="none"
+                    points="29 13 14 29 25 29 23 39 38 23 27 23"
+                  />
+                </svg>
+              </div>
+              <p className="mb-2 font-bold"> Team</p>
+              <p className="text-sm leading-5 text-gray-900">
+                 Our team of "Perfectionists" sees significant qualities like dedication and commitment towards the customer's dreams
+              </p>
+            </div>
+            <div className="w-full h-1 ml-auto duration-300 origin-left transform scale-x-0 bg-deep-purple-accent-400 group-hover:scale-x-100" />
+          </div>
+         
         </div>
       </div>
     </div>
-  )
-}
+  );
+};
+
+
+export default Content;
