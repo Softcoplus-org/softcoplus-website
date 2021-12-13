@@ -14,7 +14,7 @@ import Footer from "../../components/Footer"
 
 const Home: NextPage = () => {
   return (
-      <>
+    <div className="overflow-hidden">
          <Navbar />
          <Header />
          <Highlights />
@@ -23,7 +23,7 @@ const Home: NextPage = () => {
          <Need />
          <Choose />
          <Footer />
-      </>
+      </div>
   )
 }
 

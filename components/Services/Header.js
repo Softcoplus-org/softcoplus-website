@@ -8,7 +8,7 @@ export default function Header() {
    
     return (
 
-      <div className="">
+      <div className=" overflow-hidden">
            <Particles id="particles-js"
             params={{
                 particles:  {
@@ -124,10 +124,10 @@ export default function Header() {
               >
            </Particles>
                  
-            <div  className="absolute top-20 w-full px-4 pt-16 sm:mt-8 md:mt-16 md:mb-16 mt-2 mx-auto lg:py-32 md:px-8 xl:px-20 sm:max-w-xl md:max-w-full">
+            <div  className="absolute top-10 w-full px-4 pt-16 sm:mt-8 md:mt-16 md:mb-16 mt-2 mx-auto lg:py-32 md:px-8 xl:px-20 sm:max-w-xl md:max-w-full">
                 <div className="flex justify-center h-full  sm:mr-20 overflow-hidden lg:w-2/3 xl:w-1/2 lg:absolute lg:justify-start lg:bottom-0 lg:right-0 lg:items-end">
                    <img
-          src="https://kitwind.io/assets/kometa/full-browser.png"
+          src="https://images.unsplash.com/photo-1519389950473-47ba0277781c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8d2ViJTIwZGV2ZWxvcG1lbnQlMjBhZ2VuY3l8ZW58MHx8MHx8&auto=format&fit=crop&w=800&q=70"
           className="object-cover object-top w-full h-64 max-w-xl -mb-16 rounded shadow-2xl lg:ml-64 xl:ml-8 lg:-mb-24 xl:-mb-28 lg:h-auto lg:max-w-screen-md"
           alt=""
         />

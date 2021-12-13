@@ -321,8 +321,8 @@ export default function Example() {
                   Employee Login
                 </a>
 
-                <a href="#" className="text-base font-medium text-gray-900 hover:text-gray-700">
-                  Expertise
+                <a href="/" className="text-base font-medium text-gray-900 hover:text-gray-700">
+                  Home
                 </a>
                 
               </div>

@@ -43,7 +43,8 @@ export default function Example() {
           <p className="mt-6 max-w-3xl text-xl text-gray-300">
           Softcoplus provides remarkable salesforce services to each of its clients "as a service," helping an organization upgrade its promptness and outstanding customer relation and cooperation inside an engaging environment.
           </p>
-          <button className='bg-red-800 p-3 text-white rounded-md mt-6' > <a href='/contact' >Get Started</a> </button>
+          <a href='/contact' >
+          <button className='bg-red-800 p-3 text-white rounded-md mt-6' > Get Started </button> </a> 
         </div>
 
         
