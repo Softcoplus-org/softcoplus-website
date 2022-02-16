@@ -41,7 +41,9 @@ export default function Example() {
         <div className="relative max-w-7xl mx-auto py-20 px-4 sm:py-24 sm:px-6 lg:px-8">
           <h3 className="text-2xl font-extrabold tracking-tight text-white md:text-5xl lg:text-5xl font-sans ">How does Softcoplus help companies in Salesforce?</h3>
           <p className="mt-6 max-w-3xl text-xl text-gray-300">
-          Softcoplus provides remarkable salesforce services to each of its clients "as a service," helping an organization upgrade its promptness and outstanding customer relation and cooperation inside an engaging environment.
+          Softcoplus provides remarkable salesforce services to each of its clients "as a service," helping an organization upgrade its promptness and outstanding customer relation and cooperation inside an engaging environment. This service makes the task pretty easy and seamless. Because of the excellent salesforce consulting Companies, businesses and organizations hold a greater chance of arriving at the top in the hyper-com market globally by adopting best practices with state-of-the-art software inside the industry.Undoubtedly, Softcoplus is the best platform many businesses and organizations have adopted, thereby maintaining excellent customer relationships globally. The company provides so many services and tools in its portfolio. Despite the organization's scale, size, services, and area, you can benefit from choosing Softcoplus for small businesses.
+          It is now the best time for you to come up with creative solutions with excellent technologies. Softcioplus helps small, medium, and large businesses. The aim is to help customers by giving an enhanced experience. This technology can help in promoting the industry. 
+
           </p>
           <a href='/contact' >
           <button className='bg-red-800 p-3 text-white rounded-md mt-6' > Get Started </button> </a> 
