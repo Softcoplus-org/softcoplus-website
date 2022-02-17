@@ -1,4 +1,5 @@
 
+
 import React from "react";
 import Image from 'next/image'
 import profilePic from  "/public/computer.png"
@@ -33,6 +34,7 @@ export default function Content({item} : any)  {
                 </h2>
                 <p className="text-base text-gray-700 md:text-lg">
                 Your website is the effect of your business. A professionally advanced and designed website will take your business to higher levels of achievement and growth. Since customers have become online-savvy, even more, complicated websites have pushed the limits of online business. Simplicity in web improvement and design permits a user to focus on the critical elements of the website, like its functionality, message, usability, and the final result of meeting the business objective in terms of conversion.
+               <p> With Softcoplus, the web development Mississauga process is equipped to get what you need to accomplish before it even starts. </p>
                   
                 </p>
               </div>
@@ -48,4 +50,3 @@ export default function Content({item} : any)  {
      
   );
 };
-

@@ -14,9 +14,50 @@
   }
   ```
 */
+import React, { useState } from "react";
 import { MailIcon, PhoneIcon } from '@heroicons/react/outline'
 
 export default function Example() {
+  const [disabled, setDisabled] = useState(true);
+  const [popUp, setPopUp] = useState(false);
+  const [processing, setProcessing] = useState(false);
+  const [fullname, setFullname] = useState("");
+  const [email, setEmail] = useState("");
+  const [message, setMessage] = useState("");
+  const handler = (event: any) => {
+
+    if (event.target.name === "fullname") {
+      setFullname(event.target.value)
+    }
+    if (event.target.name === "email") {
+      setEmail(event.target.value)
+    }
+    if (event.target.name === "message") {
+      setMessage(event.target.value)
+      if (event.target.value.length === 0) {
+        setDisabled(true)
+        return
+      }
+      setDisabled(false)
+    }
+  }
+
+  const submit = (event: any) => {
+    event.preventDefault();
+    setProcessing(true)
+    setTimeout(() => {
+      setPopUp(true);
+      setFullname("");
+      setEmail("");
+      setMessage("");
+      setDisabled(true);
+      setProcessing(false);
+    }, 10000)
+  }
+
+  const closePopUp = () => {
+    setPopUp(false);
+  }
   return (
     <div className="relative bg-white">
       <div className="absolute inset-0">
@@ -27,7 +68,7 @@ export default function Example() {
           <div className="max-w-lg mx-auto">
             <h2 className="text-2xl font-extrabold tracking-tight text-gray-900 sm:text-3xl">Get in touch</h2>
             <p className="mt-3 text-lg leading-6 text-gray-500">
-               Reach us out to get more information about us!
+              Reach us out to get more information about us!
             </p>
             <dl className="mt-8 text-base text-gray-500">
               <div>
@@ -70,7 +111,9 @@ export default function Example() {
                 </label>
                 <input
                   type="text"
-                  name="full-name"
+                  name="fullname"
+                  value={fullname}
+                  onChange={handler}
                   id="full-name"
                   autoComplete="name"
                   className="block w-full shadow-sm border-2 py-3 px-4 placeholder-gray-500 focus:ring-red-500 focus:border-red-600 outline-none border-gray-300 rounded-md"
@@ -85,24 +128,14 @@ export default function Example() {
                   id="email"
                   name="email"
                   type="email"
+                  value={email}
+                  onChange={handler}
                   autoComplete="email"
                   className="block w-full shadow-sm py-3 px-4 placeholder-gray-500 focus:ring-red-500 focus:border-red-600 outline-none border-gray-300 border-2 rounded-md"
                   placeholder="Email"
                 />
               </div>
-              <div>
-                <label htmlFor="phone" className="sr-only">
-                  Phone
-                </label>
-                <input
-                  type="text"
-                  name="phone"
-                  id="phone"
-                  autoComplete="tel"
-                  className="block w-full shadow-sm py-3 px-4 placeholder-gray-500 focus:ring-red-500 focus:border-red-600 outline-none border-gray-300 border-2 rounded-md"
-                  placeholder="Phone"
-                />
-              </div>
+
               <div>
                 <label htmlFor="message" className="sr-only">
                   Message
@@ -111,6 +144,8 @@ export default function Example() {
                   id="message"
                   name="message"
                   rows={4}
+                  value={message}
+                  onChange={handler}
                   className="block w-full shadow-sm py-3 px-4 placeholder-gray-500 focus:ring-red-500 focus:border-red-600  outline-none border-gray-300 border-2 rounded-md"
                   placeholder="Message"
                   defaultValue={''}
@@ -118,16 +153,51 @@ export default function Example() {
               </div>
               <div>
                 <button
-                  type="submit"
+                  style={{ opacity: disabled ? "0.6" : "1" }}
+                  disabled={disabled}
+                  type='submit'
+                  onClick={submit}
                   className="inline-flex justify-center py-3 px-6 border border-transparent shadow-sm text-base font-medium rounded-md text-white bg-red-600 hover:bg-red-500 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-red-500"
                 >
-                  Submit
+                  {processing ? "sending" : "submit"}
                 </button>
               </div>
             </form>
           </div>
         </div>
       </div>
+      {/* Popup */}
+
+      {popUp &&
+        <div style={{
+          width: "100%",
+          height: "100vh",
+          backgroundColor: "rgba(0,0,0,0.6)",
+          position: "fixed",
+          top: 0,
+          right: 0,
+          zIndex: 222,
+          display: "flex",
+          justifyContent: "center",
+          alignItems: "center"
+        }}>
+          <div style={{
+            width: "30%",
+            height: 100,
+            backgroundColor: "#fff",
+            borderRadius: 10
+
+          }}>
+            <h1>Data submitted successfully</h1>
+            <h5>We will get back to you shortly, Thank you!</h5>
+            <button onClick={closePopUp}>Okay</button>
+          </div>
+
+        </div>}
     </div>
   )
 }
+
+
+
+

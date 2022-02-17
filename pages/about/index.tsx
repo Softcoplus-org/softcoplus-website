@@ -9,6 +9,7 @@ import Info from "../../components/Aboutus/Info"
 import Service from "../../components/Aboutus/Service";
 import Footer from "../../components/Footer"
 
+
 const Home: NextPage = () => {
   return (
       <>

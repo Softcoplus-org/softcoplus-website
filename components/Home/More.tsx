@@ -79,7 +79,7 @@ Less time consumption and more efficiency.
            
           </p>
           <p className="mt-4 max-w-7xl text-lg text-indigo-200">
-          When stored, all your business clients, employee's information, company activities, product-related information, etc., when are stored, you get better chances to increase the opportunities and sales growth by 30%.
+          When stored, all your business clients, employee's information, company activities, product-related information, etc., when are stored, you get better chances to increase the opportunities and sales growth by 30%. 
           </p>
           <p className="mt-4 max-w-7xl text-lg text-indigo-200">
           However, there are some other benefits of salesforce professional services, which we will trail today in this article. Let's get started;
