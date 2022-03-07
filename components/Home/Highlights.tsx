@@ -14,6 +14,7 @@
   }
   ```
 */
+
 export default function Example() {
   return (
     <div className="relative py-16 bg-white overflow-hidden">
@@ -92,18 +93,18 @@ export default function Example() {
             </span>
          
           </h1>
-          <p className="mt-8 text-xl text-gray-500 max-w-7xl mx-auto leading-8">
+          <p className="mt-8 text-xl text-gray-500 max-w-7xl mx-auto leading-8 text-justify font-serif">
              This service makes the task pretty easy and seamless. Because of the excellent salesforce consulting Companies, businesses and organizations hold a greater chance of arriving at the top in the hyper-com market globally by adopting best practices with state-of-the-art software inside the industry.
           </p>
         </div>
-        <div className="mt-6  text-xl max-w-7xl mx-auto text-gray-500">
+        <div className="mt-6  text-xl max-w-7xl mx-auto text-gray-500 text-justify font-serif">
           <p>
           Undoubtedly, Softcoplus is the best platform many businesses and organizations have adopted, thereby maintaining excellent customer relationships globally. The company provides so many services and tools in its portfolio. Despite the organization's scale, size, services, and area, you can benefit from choosing Softcoplus for small businesses.
 
           </p>
          <br></br>
-          <p>
-            It is now the best time for you to come up with creative solutions with excellent technologies. Softcioplus helps small, medium, and large businesses. The aim is to help customers by giving an enhanced experience. This technology can help in promoting the industry. 
+          <p className="p-2 text-justify font-serif">
+            It is now the best time for you to come up with creative solutions with excellent technologies. Softcioplus helps small, medium, and large businesses. The aim is to help customers by giving an enhanced experience. This technology can help in promoting the industry.
 
           </p>
          
@@ -112,3 +113,4 @@ export default function Example() {
     </div>
   )
 }
+
