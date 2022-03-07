@@ -74,14 +74,14 @@ Less time consumption and more efficiency.
       <div className="bg-gray-800">
         <div className="max-w-4xl mx-auto px-4 py-16 sm:px-6 sm:pt-20 sm:pb-24 lg:max-w-7xl lg:pt-24 lg:px-8">
           <h2 className="text-3xl font-extrabold text-white tracking-tight">Benefits of Using Salesforce For Your Business?</h2>
-          <p className="mt-4 max-w-7xl text-lg text-indigo-200">
+          <p className="mt-4 max-w-7xl text-lg text-indigo-200 text-justify font-serif">
           Customer data is highly important to run a business these days; securing that same data from every cyberworld’s danger is more important!
            
           </p>
-          <p className="mt-4 max-w-7xl text-lg text-indigo-200">
-          When stored, all your business clients, employee's information, company activities, product-related information, etc., when are stored, you get better chances to increase the opportunities and sales growth by 30%. 
+          <p className="mt-4 max-w-7xl text-lg text-indigo-200 text-justify font-serif">
+          When stored, all your business clients, employee's information, company activities, product-related information, etc., when are stored, you get<br></br> better chances to increase the opportunities and sales growth by 30%. 
           </p>
-          <p className="mt-4 max-w-7xl text-lg text-indigo-200">
+          <p className="mt-4 max-w-7xl text-lg text-indigo-200 font-serif">
           However, there are some other benefits of salesforce professional services, which we will trail today in this article. Let's get started;
           </p>
           <div className="mt-12 grid grid-cols-1 gap-x-6 gap-y-12 sm:grid-cols-1 lg:mt-16 lg:grid-cols-2 lg:gap-x-8 lg:gap-y-16">
