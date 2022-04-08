@@ -87,12 +87,12 @@ export default function Example() {
       <div className="relative px-4 sm:px-6 lg:px-8">
         <div className="text-lg max-w-7xl mx-auto ">
           <h2>
-            <span className="block text-base text-center text-red-700 font-semibold tracking-wide uppercase">
+            <span className="block text-base text-justify  text-red-900 font-semibold tracking-wide uppercase">
             CRM development services for your better future!
             </span>
          
           </h2>
-          <p className="mt-8 text-xl text-gray-500 max-w-7xl mx-auto leading-8">
+          <p className="mt-8 text-xl text-justify text-red-900 max-w-7xl mx-auto leading-8">
           Our CRM solutions help you to automate your business operations. We offer you CRM development Services that ensure long-time relationships with your customers. Our CRM solutions are equipped with advanced technology and tools that allow you to handle complex business processes in a simple and time-saving way like sales, marketing, tech support, customer support, and more. The automation of the business operations helps you to keep the track of the customers’ behavior. Also, you can store the analytics that can help you prepare your business plans to get high returns on investments.
 
 Our CRM development agency offers you the solutions from supervising the business leads to uninterrupted management. Our solutions streamline your whole business from the manufacturing of the products, marketing process, to the delivery of the product. You can overcome your day-to-day business challenges by using our CRM development services. We fulfill your digital needs to expand your business services or products globally.
@@ -100,7 +100,7 @@ Our CRM development agency offers you the solutions from supervising the busines
 
           </p>
         </div>
-        <div className="mt-6  text-xl max-w-7xl mx-auto text-gray-500">
+        <div className="mt-6  text-xl max-w-7xl mx-auto text-justify text-red-900">
           <p> Our CRM development agency offers you the solutions from supervising the business leads to uninterrupted management. Our solutions streamline your whole business from the manufacturing of the products, marketing process, to the delivery of the product. You can overcome your day-to-day business challenges by using our CRM development services. We fulfill your digital needs to expand your business services or products globally.
 Undoubtedly, Softcoplus is the best platform many businesses and organizations have adopted, thereby maintaining excellent customer relationships globally. The company provides so many services and tools in its portfolio. Despite the organization's scale, size, services, and area, you can benefit from choosing Softcoplus for small businesses.
 
