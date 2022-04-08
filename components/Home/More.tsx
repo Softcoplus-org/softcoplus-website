@@ -94,7 +94,7 @@ Less time consumption and more efficiency.
                 </div>
                 <div className="mt-6">
                   <h3 className="text-lg font-medium text-white">{feature.name}</h3>
-                  <p className="mt-2 text-base text-indigo-200">{feature.description}</p>
+                  <p className="mt-2 text-base text-justify text-gray-100">{feature.description}</p>
                 </div>
               </div>
             ))}
@@ -112,12 +112,12 @@ Less time consumption and more efficiency.
             </span>
         
         </h1>
-        <p className="mt-8 text-xl text-gray-500 max-w-7xl mx-auto leading-8">
+        <p className="mt-8 text-xl text-gray-500 max-w-7xl mx-auto leading-8 text-justify">
         The complete customer specifications help in designing the plans to profit the business. Built-in calendar tools support necessary program tasks for the year, month, week, and day. This serves to prioritize the work according to the customers and plan the tasks.
 
         </p>
         </div>
-        <div className="mt-6  text-xl max-w-7xl mx-auto text-gray-500">
+        <div className="mt-6  text-xl max-w-7xl mx-auto text-gray-500 text-justify">
         <p>
         It enhances organic communication and serves the business for future difficulties. We have a team of Salesforce Application development services and the best talent, skill, and expertise to enhance the business name. You can reach us according to your requirements. If you have any uncertainties or you want an answer to any questions. We have the best experience and information regarding the Salesforce platform.
 
