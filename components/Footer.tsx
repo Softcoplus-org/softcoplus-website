@@ -1,4 +1,5 @@
  /* This is tailwind code by shubham singh*/
+
 import Image from 'next/image'
 import logo from  "../public/logo.jpeg"
 
@@ -21,7 +22,10 @@ const navigation = {
 
 export default function Example() {
     return (
-    <footer className="bg-gray-200" aria-labelledby="footer-heading ">
+      
+      
+<footer  
+         className="bg-gray-200" aria-labelledby="footer-heading ">
       <h2 id="footer-heading" className="sr-only">
         Footer
       </h2>
@@ -56,22 +60,22 @@ export default function Example() {
                     ))}
                   </ul>
                 </div>
-
+ 
               </div>
               </div>
-              <h3 className="text-sm font-semibold text-green-600 tracking-wider uppercase text-center mb-5">Address</h3>
-              <p className="flex items-center justify-center md:justify-start mb-4">
+              <h3 className="text-sm font-semibold text-green-600 tracking-wider uppercase text-center mb-8">Address</h3>
+              <p className="flex items-center text-sm absolute md:justify-start justify-start sm:justify-start mb-4 -my-8">
           <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="home"
             className="w-4 mr-4" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">
             <path fill="currentColor"
               d="M280.37 148.26L96 300.11V464a16 16 0 0 0 16 16l112.06-.29a16 16 0 0 0 15.92-16V368a16 16 0 0 1 16-16h64a16 16 0 0 1 16 16v95.64a16 16 0 0 0 16 16.05L464 480a16 16 0 0 0 16-16V300L295.67 148.26a12.19 12.19 0 0 0-15.3 0zM571.6 251.47L488 182.56V44.05a12 12 0 0 0-12-12h-56a12 12 0 0 0-12 12v72.61L318.47 43a48 48 0 0 0-61 0L4.34 251.47a12 12 0 0 0-1.6 16.9l25.5 31A12 12 0 0 0 45.15 301l235.22-193.74a12.19 12.19 0 0 1 15.3 0L530.9 301a12 12 0 0 0 16.9-1.6l25.5-31a12 12 0 0 0-1.7-16.93z">
             </path>
           </svg>
-          742 Evergreen Terrace
+          742 Evergreen <br></br>Terrace
 
           Springfield, OR 12345
         </p>
-        <p className="flex items-center justify-center md:justify-centre mb-4 -my-8">
+        <p className="flex items-center text-sm justify-center sm:justify-center mb-4 -my-8">
           <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="envelope"
             className="w-4 mr-4" role="img" xmlns="http://www.w3.org/2000/svg"
             viewBox="0 0 512 512">
@@ -81,7 +85,7 @@ export default function Example() {
           </svg>
           support@example.com
         </p>
-        <p className="flex flex-row justify-evenly md:justify-end  -my-10">
+        <p className="flex flex-row text-sm justify-end sm:justify-end  -my-10">
           <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="phone"
             className="w-4 mr-4" role="img" xmlns="http://www.w3.org/2000/svg"
             viewBox="0 0 512 512">
@@ -99,22 +103,8 @@ export default function Example() {
           <div className="mt-12 border-t border-gray-200 pt-8 mb-8">
             <p className="text-base text-green-600 xl:text-center">&copy; 2020 Softcoplus,  Inc. All rights reserved.</p>
           </div>
-          </footer>
-            )}
-
-
-
-
-
-
-
-  
-    
-
- 
-
-
           
-             
-                
-     
+          
+          </footer>
+          
+    )}
