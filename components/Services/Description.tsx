@@ -92,12 +92,12 @@ export default function Example() {
               </span>
            
             </h1>
-            <p className="mt-8 text-xl text-gray-500 max-w-7xl mx-auto leading-8">
+            <p className="mt-8 text-xl text-black-900 text-justify max-w-7xl mx-auto leading-8">
             If you are looking forward to developing your website, you first need to put resources in a good web development agency in Mississauga that teams up and communicates with you to understand your requirements for your website, and accordingly designs a website for you. They require well-trained and experienced designers and developers in-house and timely deliver you a design that can be developed later by the developers. To ensure that your website has all these components, you should leave your website to an expert web development company Mississauga. Making the wrong choice while selecting a web development company can be deadly. 
 
             </p>
           </div>
-          <div className="mt-6  text-xl max-w-7xl mx-auto text-gray-500">
+          <div className="mt-6  text-xl max-w-7xl mx-auto text-justify text-black-900">
             <p>
             Our web development company located in Mississauga can get all that from you and create the best, most responsive website for your business. The friendly team will direct you through website creation from the initial plan to launch. Consequently, web development agency, Mississauga, will create something that you will love as much as you do. Whether you need a brand-new website, an update to your existing website, or a total redesign. At last, the principal point is to make you and your business look your best.
   
