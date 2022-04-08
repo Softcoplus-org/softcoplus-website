@@ -14,7 +14,6 @@
   }
   ```
 */
-
 export default function Example() {
   return (
     <div className="relative py-16 bg-white overflow-hidden">
@@ -113,4 +112,3 @@ export default function Example() {
     </div>
   )
 }
-
