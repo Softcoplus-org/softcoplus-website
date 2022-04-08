@@ -40,10 +40,9 @@ export default function Example() {
         </div>
         <div className="relative max-w-7xl mx-auto py-20 px-4 sm:py-24 sm:px-6 lg:px-8">
           <h3 className="text-2xl font-extrabold tracking-tight text-white md:text-5xl lg:text-5xl font-sans ">How does Softcoplus help companies in Salesforce?</h3>
-          <p className="mt-6 max-w-3xl text-xl text-gray-300">
+          <p className="mt-6 max-w-3xl text-xl text-gray-300 text-justify ">
           Softcoplus provides remarkable salesforce services to each of its clients "as a service," 
           helping an organization upgrade its promptness and outstanding customer relation and cooperation inside an engaging environment. 
-
           </p>
           <a href='/contact' >
           <button className='bg-red-800 p-3 text-white rounded-md mt-6' > Get Started </button> </a> 
