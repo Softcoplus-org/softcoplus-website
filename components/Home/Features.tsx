@@ -60,7 +60,7 @@ export default function Example() {
                   </div>
                   <p className="ml-16 text-lg leading-6 font-medium text-gray-900">{feature.name}</p>
                 </dt>
-                <dd className="mt-2 ml-16 text-base text-gray-500">{feature.description}</dd>
+                <dd className="mt-2 ml-16 text-base text-gray-500 text-justify">{feature.description}</dd>
               </div>
             ))}
           </dl>
