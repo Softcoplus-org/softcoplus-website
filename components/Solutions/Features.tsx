@@ -41,7 +41,7 @@ export const Feature = () => {
             <div className="flex items-center justify-center w-12 h-12 mb-4 rounded-full bg-red-50">
               <svg
                 className="w-10 h-10 text-black"
-                stroke="currentColor"
+                stroke="currentColor" 
                 viewBox="0 0 52 52"
               >
                 <polygon
@@ -56,7 +56,7 @@ export const Feature = () => {
           </div>
           <div>
             <h6 className="mb-3 text-xl text-red-700 font-bold leading-5">High return on investment</h6>
-            <p className="mb-3 text-md text-gray-600">
+            <p className="mb-3 text-md text-justify text-red-900">
             At our CRM development company, the day you get the CRM integration to handle your business operations, you will notice a visible rise in the return while offering satisfaction to the customers.
 
             </p>
@@ -86,7 +86,7 @@ export const Feature = () => {
             <h6 className="mb-3 text-xl text-red-700 font-bold leading-5">
             Satisfaction to the team members
             </h6>
-            <p className="mb-3 text-md text-gray-600">
+            <p className="mb-3 text-md text-justify text-red-900">
             Your team members can work in a more efficient and time-saving environment after collaborating with our CRM development agency. And they can put their efforts and time into improving their work and think about innovative ideas rather than putting all their time into doing the repetitive tasks manually. The staff members can handle a greater number of queries and an increased number of leads in the given time.
 
             </p>
@@ -115,7 +115,7 @@ export const Feature = () => {
             <h6 className="mb-3 text-xl text-red-700 font-bold leading-5">
             High efficiency- 
             </h6>
-            <p className="mb-3 text-md text-gray-600">
+            <p className="mb-3 text-md text-justify text-red-900">
             Using our CRM services, you will notice a gradual improvement in the efficiency of your members. 
             They can record customer interactions. And they can learn in-depth about the customer behavior, their needs along with the problems your customers are facing.
              In addition, with our CRM solutions, you can train and educate your staff members in a better and an effective way.
@@ -146,7 +146,7 @@ export const Feature = () => {
             <h6 className="mb-3 text-xl text-red-700 font-bold leading-5">
             Better client relationships
             </h6>
-            <p className="mb-3 text-sm text-gray-600">
+            <p className="mb-3 text-sm text-justify text-black-900">
             With our CRM system, you can respond fast to your clients. We help you to build stronger relationships with your clients. 
 
             </p>
@@ -175,7 +175,7 @@ export const Feature = () => {
             <h6 className="mb-3 text-xl text-red-700 font-bold leading-5">
             Increased sales
             </h6>
-            <p className="mb-3 text-sm text-gray-600">
+            <p className="mb-3 text-sm text-justify text-black-900">
             Now, if you better understand the concerns and demands of your clients then chances are high that more and more users will connect with you take the benefits of your services or products.
 
             </p>
