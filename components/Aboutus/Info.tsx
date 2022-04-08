@@ -15,7 +15,7 @@ export const Content = () => {
             </h2>
           </div>
           <div className="lg:w-1/2">
-            <p className="mb-4 text-base text-gray-700">
+            <p className="mb-4 text-base text-justify text-red-900">
               Softcoplus is a leading website development and designing company that offers a wide array of services for SMEs as well as large endeavors. Our team of capable developers and designers uses the most latest technologies and proven strategies to make clients user-engaging business websites and dynamic web applications and promote them to enhance client reach.
 
             </p>
@@ -39,7 +39,7 @@ export const Content = () => {
             </h3>
           </div>
           <div className="lg:w-1/2">
-            <p className="mb-4 text-md text-gray-700">
+            <p className="mb-4 text-md text-justify text-red-900">
               Softcoplus is a leading website development and designing company that offers a wide array of services for SMEs as well as large endeavors. Our team of capable developers and designers uses the most latest technologies and proven strategies to make clients user-engaging business websites and dynamic web applications and promote them to enhance client reach.
 
             </p>
@@ -62,7 +62,7 @@ export const Content = () => {
             </h3>
           </div>
           <div className="lg:w-1/2">
-            <p className="mb-4 text-md text-gray-700"> 
+            <p className="mb-4 text-md text-red-900"> 
             If you are selling anything through your website, you will likely require e-commerce as a feature of the general plan. This is the place where great, responsive website design and development is critical because you need to attract customers to your website. Softcoplus can help you without outcomes-driven eCommerce web development services.
             </p>
           </div>
@@ -85,7 +85,7 @@ export const Content = () => {
             </h3>
           </div>
           <div className="lg:w-1/2">
-            <p className="mb-4 text-md text-gray-700">
+            <p className="mb-4 text-md text-red-900">
               With an effective team of experienced and certified consultants, we provide salesforce consulting services at very reasonable prices to our customers. 
             </p>
           </div>
@@ -109,7 +109,7 @@ export const Content = () => {
             </h3>
           </div>
           <div className="lg:w-1/2">
-            <p className="mb-4 text-md text-gray-700">
+            <p className="mb-4 text-md text-justify text-red-900">
             Each brand has certain unique characteristics that should be characterized by the proper use of typography, topics, colors, and more. At Softcoplus, we work on the process of brand personality configuration by providing a wide range of corporate branding services to suit your business needs.
             </p>
           </div>
