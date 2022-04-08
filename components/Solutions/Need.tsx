@@ -54,7 +54,7 @@ export const Feature = () => {
                 </svg>
               </div>
              
-              <p className="mb-3 text-md text-gray-900">
+              <p className="mb-3 text-md text-gray-900 text-justify">
                  From the beginning to till time, we have worked for various industries. Our CRM development services are the outcome of the creativity and innovative strategies of our well-qualified engineers. 
               </p>
             </div>
@@ -78,7 +78,7 @@ export const Feature = () => {
                 </svg>
               </div>
               
-              <p className="mb-3 text-md text-gray-700">
+              <p className="mb-3 text-md text-black-900  text-justify">
                  Our experts understand, measure, plan and implement adequate solutions for your business growth. And to increase the productivity of your team members.
               </p>
             </div>
@@ -102,7 +102,7 @@ export const Feature = () => {
                 </svg>
               </div>
               
-              <p className="mb-3 text-md text-gray-700">
+              <p className="mb-3 text-md text-black-900 text-justify">
               Depending on your needs our team designs the required customized CRM software for you that can assist you in managing the uncertainties of your business. 
               </p>
             </div>
@@ -126,7 +126,7 @@ export const Feature = () => {
                 </svg>
               </div>
             
-              <p className="mb-3 text-md text-gray-700">
+              <p className="mb-3 text-md text-justify text-black-900">
                Our well-designed CRM software can adapt to the new technologies. You can add new features or services to your current CRM software. Our team members are always ready to offer you the required help whenever you want.
               </p>
             </div>
