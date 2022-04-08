@@ -49,8 +49,8 @@ import {
                   </span>
                 </div>
                 <div className="mt-6">
-                  <h3 className="text-lg font-medium text-white">{feature.name}</h3>
-                  <p className="mt-2 text-base text-indigo-200">{feature.description}</p>
+                  <h3 className="text-lg font-medium text-red-900">{feature.name}</h3>
+                  <p className="mt-2 text-base text-justify text-red-900">{feature.description}</p>
                 </div>
               </div>
             ))}
@@ -59,4 +59,5 @@ import {
       </div>
     )
   }
+  
   
