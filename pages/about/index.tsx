@@ -107,21 +107,22 @@ const Home: NextPage = () => {
               </span>
            
             </h2>
-            <p className="mt-8 text-xl text-gray-500 max-w-7xl mx-auto leading-8">
+            <p className="mt-8 text-xl text-justify text-red-900 max-w-7xl mx-auto leading-8">
            
-Softcoplus is one of the leading web development companies. We provide CRM, web development, and Salesforce consulting services to our clients at affordable rates. Our IT professionals expert team includes developers, Graphic Designers, Business Analysts, and Project Managers. Our core expertise in offering Mobile App Development, Corporate Branding Solutions, and Website Development to a wide variety of business verticals such as Healthcare, Hospitality, Real Estate, eCommerce, Manufacturing, Tourism, Education, Finance, and Banking, and more. We take your plans to another level to achieve high performance, profitable and customized IT solutions in no time. We can build a consultancy-driven approach for giving start to finish enterprise technology solutions. We work with our customers to construct a powerful and rewarding web with innovative social media solutions.
+Softcoplus is one of the leading web development companies. We provide CRM, web development, and Salesforce<br></br> consulting services to our clients at affordable rates. Our IT professionals expert team includes developers, Graphic<br></br> Designers, Business Analysts, and Project Managers. Our core expertise in offering Mobile App Development, Corporate<br></br> Branding Solutions, and Website Development to a wide variety of business verticals such as Healthcare, Hospitality, Real<br></br> Estate, eCommerce, Manufacturing, Tourism, Education, Finance, and Banking, and more. We take your plans to another<br></br> level to achieve high performance, profitable and customized IT solutions in no time. We can build a consultancy-driven<br></br> approach for giving start to finish enterprise technology solutions. We work with<br></br> our customers to construct a powerful and rewarding web with innovative social media solutions.
 
             </p>
           </div>
-          <div className="mt-6  text-xl max-w-7xl mx-auto text-gray-500">
-            <p> We understand the value of the client's time and money, so we handle each task genuinely and deliver the maximum output within the given time frame. Keeping in mind the needs and business goals of our clients, we maximize our capability and experience to deliver innovative web development services including website designing, CRM, salesforce consulting, and mobile app development services. Our web development experts have tremendous experience, in-depth knowledge, and the ability to guarantee our client's web-based outstanding success and continued growth online. We also excel in creating and developing imaginative programming applications and solutions for the latest technologies. Our Technology Masters, developers, and computer programmers are completely equipped with the technical skills and knowledge to propose to the clients to choose the right technology for their business and industry.
+          <div className="mt-6  text-xl max-w-7xl text-justify mx-auto text-red-900">
+            <p> We understand the value of the client's time and money, so we handle each task genuinely and deliver the maximum<br></br> output within the given time frame. Keeping in mind the needs and business goals of our clients, we maximize our<br></br> capability and experience to deliver innovative web development services including website designing, CRM, salesforce<br></br> consulting, and mobile app development services. Our web development experts have tremendous experience, in-depth<br></br> knowledge, and the ability to guarantee our client's web-based outstanding success and continued growth online. We also<br></br> excel in creating and developing imaginative programming applications and solutions for the latest technologies. Our<br></br> Technology Masters, developers, and computer programmers are completely equipped with the technical skills and<br></br> knowledge to propose to the clients to choose the right technology for their business and industry.
 
   
             </p>
            <br></br>
            
            <p>
-           We have authority and specialization in creating web applications just as programming applications, so we are currently dealing with many activities of web and programming applications to deliver excellent results for the customers. Our point is to offer quality services, 100% consumer loyalty, reliability, and guaranteed & quick results to the customer base. Our principal objective is to focus on setting up market-driven and money-making web development and designing plans for our significant clients.
+           We have authority and specialization in creating web applications just as programming applications, so we are<br></br>
+            currently dealing with many activities of web and programming applications to deliver excellent results for the customers.<br></br> Our point is to offer quality services, 100% consumer loyalty, reliability, and guaranteed & quick results to the customer<br></br> base. Our principal objective is to focus on setting up market-driven and money-making web development and<br></br> designing plans for our significant clients.
 
            </p>
            
